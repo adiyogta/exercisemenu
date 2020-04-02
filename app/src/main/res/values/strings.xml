@@ -7,4 +7,14 @@
     <string name="input_pass">Masukan Password</string>
     <string name="btn">SIGN-IN</string>
     <string name="labelMenu">Menu Hitung Bangun Datar</string>
+    <string name="persegi">Menghitung Persegi</string>
+    <string name="lingkaran">Menghitung Lingkaran</string>
+    <string name="persegiP">Menghitung Persegi Panjang</string>
+    <string name="segi3">Menghitung Segitiga</string>
+    <string name="trapesium">Menghitung Trapesium</string>
+
+    <string-array name="daftar_hitung">
+        <item>Hitung Luas</item>
+        <item>Hitung Keliling</item>
+    </string-array>
 </resources>
