@@ -39,20 +39,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
-        <TextView
-            android:id="@+id/textPersegi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/persegi"
-            android:textSize="20sp" />
-
         <Spinner
             android:id="@+id/spinner1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/textPersegi"
-            android:entries="@array/daftar_hitung"
-            android:layout_toRightOf="@+id/textPersegi" />
+            android:entries="@array/persegi"/>
 
         </RelativeLayout>
 
@@ -60,21 +51,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
-
-        <TextView
-            android:id="@+id/textLingkaran"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/lingkaran"
-            android:textSize="20dp" />
 
         <Spinner
             android:id="@+id/spinner2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/daftar_hitung"
-            android:layout_alignBottom="@+id/textLingkaran"
-            android:layout_toRightOf="@+id/textLingkaran" />
+            android:entries="@array/lingkaran"/>
 
         </RelativeLayout>
 
@@ -82,21 +64,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
-
-        <TextView
-            android:id="@+id/textPersegiPanjang"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/persegiP"
-            android:textSize="20dp" />
 
         <Spinner
             android:id="@+id/spinner3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/daftar_hitung"
-            android:layout_alignBottom="@+id/textPersegiPanjang"
-            android:layout_toRightOf="@+id/textPersegiPanjang" />
+            android:entries="@array/persegiP"/>
 
         </RelativeLayout>
 
@@ -104,21 +77,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
-
-        <TextView
-            android:id="@+id/textSegitiga"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/segi3"
-            android:textSize="20dp" />
 
         <Spinner
             android:id="@+id/spinner4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/daftar_hitung"
-            android:layout_alignBottom="@+id/textSegitiga"
-            android:layout_toRightOf="@+id/textSegitiga" />
+            android:entries="@array/segitiga"/>
 
         </RelativeLayout>
 
@@ -127,20 +91,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
-        <TextView
-            android:id="@+id/textTrapesium"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/trapesium"
-            android:textSize="20dp" />
-
         <Spinner
             android:id="@+id/spinner5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:entries="@array/daftar_hitung"
-            android:layout_alignBottom="@id/textTrapesium"
-            android:layout_toRightOf="@+id/textTrapesium" />
+            android:entries="@array/trapesium"/>
 
         </RelativeLayout>
 

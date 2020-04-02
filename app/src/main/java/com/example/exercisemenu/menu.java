@@ -28,13 +28,13 @@ public class menu extends AppCompatActivity {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
                 if(spinner1.getSelectedItem().toString().equals("Hitung Luas")) {
-
                     Intent i = new Intent(menu.this, luasPersegi.class);
                     startActivity(i);
-
-                } else {
+                } else if (spinner1.getSelectedItem().toString().equals("Hitung Luas")){
                     Intent i = new Intent(menu.this, kelilingPersegi.class);
                     startActivity(i);
+                } else {
+
                 }
             }
 

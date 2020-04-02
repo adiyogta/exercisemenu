@@ -13,7 +13,32 @@
     <string name="segi3">Menghitung Segitiga</string>
     <string name="trapesium">Menghitung Trapesium</string>
 
-    <string-array name="daftar_hitung">
+    <string-array name="persegi">
+        <item>Menghitung Persegi</item>
+        <item>Hitung Luas</item>
+        <item>Hitung Keliling</item>
+    </string-array>
+
+    <string-array name="lingkaran">
+        <item>Menghitung Lingkaran</item>
+        <item>Hitung Luas</item>
+        <item>Hitung Keliling</item>
+    </string-array>
+
+    <string-array name="persegiP">
+        <item>Menghitung Persegi Panjang</item>
+        <item>Hitung Luas</item>
+        <item>Hitung Keliling</item>
+    </string-array>
+
+    <string-array name="segitiga">
+        <item>Menghitung Segitiga</item>
+        <item>Hitung Luas</item>
+        <item>Hitung Keliling</item>
+    </string-array>
+
+    <string-array name="trapesium">
+        <item>Menghitung Trapesium</item>
         <item>Hitung Luas</item>
         <item>Hitung Keliling</item>
     </string-array>
