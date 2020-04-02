@@ -12,6 +12,8 @@
     <string name="persegiP">Menghitung Persegi Panjang</string>
     <string name="segi3">Menghitung Segitiga</string>
     <string name="trapesium">Menghitung Trapesium</string>
+    <string name="btnLuas">HITUNG LUAS</string>
+    <string name="btnKeliling">Hitung Keliling</string>
 
     <string-array name="persegi">
         <item>Menghitung Persegi</item>
