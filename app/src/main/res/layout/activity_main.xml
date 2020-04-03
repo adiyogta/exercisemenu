@@ -73,7 +73,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:hint="@string/input_pass"
-                    android:inputType="text"/>
+                    android:inputType="textPassword"/>
 
             </TableRow>
 
